@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Mostafa's Resume</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav-logo">Mostafa</a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">
+                <i class="bx bx-home nav-icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">
+                <i class="bx bx-user nav-icon"></i>Profile
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#education" class="nav-link">
+                <i class="bx bx-book nav-icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <i class="bx bx-receipt nav-icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">
+                <i class="bx bx-briefcase-alt nav-icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#certificates" class="nav-link">
+                <i class="bx bx-award nav-icon"></i>Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav-icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home-container section bd-grid">
+              <div class="home-data bd-grid">
+                <img src="assets/img/me.jpg" alt="" class="home-img" />
+                <h1 class="home-title">Mostafa Mhli</h1>
+                <h3 class="home-profession">Frontend Web Developer</h3>
+
+                <div>
+                  <a download="" href="#" class="home-button-movil">Download</a>
+                </div>
+              </div>
+              <div class="home-address bd-grid">
+                <span class="home-information">
+                  <i class="bx bx-map home-icon"></i>Homs - Syria
+                </span>
+
+                <span class="home-information">
+                  <i class="bx bx-envelope home-icon"></i
+                  >mostafamhli1234@gmail.com
+                </span>
+
+                <span class="home-information">
+                  <i class="bx bx-phone home-icon"></i>00963953883902
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bxs-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social-container bd-grid">
+              <a
+                href="https://mostafamhli.github.io/responsive-portfolio/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxs-home social-icon"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mostafa-mhli-560430200"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-linkedin-square social-icon"></i>
+              </a>
+              <a
+                href="https://github.com/mostafamhli/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="bx bxl-github social-icon"></i>
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile-description">
+              I am a fast-learner, team-worker, with 2-years experience in
+              Front-end web development and I am looking forward to improving my
+              skills in a company that will make me develop the best websites and learn
+              new things to give an added value for the right place in my work
+              journey.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container bd-grid">
+              <div class="education-content">
+                <div class="education-time">
+                  <span class="education-rounder"></span>
+                  <span class="education-line"></span>
+                </div>
+                <div class="education-data bd-grid">
+                  <h3 class="education-title">
+                    Bachelor in Software Engineering
+                  </h3>
+                  <span class="education-studies">Al-Baath University</span>
+                  <div class="year-gpa">
+                    <span class="education-year">2016 - 2021</span>
+                    <span class="education-gpa">82.090%</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="education-content">
+                <div class="education-time">
+                  <span class="education-rounder"></span>
+                  <span style="height: 85%" class="education-line"></span>
+                </div>
+                <div class="education-data bd-grid">
+                  <h3 class="education-title">
+                    Master in Software Engineering
+                  </h3>
+                  <span class="education-studies">Damascus University</span>
+                  <span class="education-year">2022 - present</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-content bd-grid">
+              <ul class="skills-data">
+                <li class="skills-name">
+                  <span class="skills-circle"></span>HTML5
+                </li>
+
+                <li class="skills-name">
+                  <span class="skills-circle"></span>CSS3
+                </li>
+
+                <li class="skills-name">
+                  <span class="skills-circle"></span>Bootstrap
+                </li>
+
+                <li class="skills-name">
+                  <span class="skills-circle"></span>JavaScript
+                </li>
+              </ul>
+              <ul class="skills-data">
+                <li class="skills-name">
+                  <span class="skills-circle"></span>TypeScript
+                </li>
+
+                <li class="skills-name">
+                  <span class="skills-circle"></span>Angular
+                </li>
+
+                <li class="skills-name">
+                  <span class="skills-circle"></span>Git
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate-container experience-container bd-grid">
+              <div class="experience-items bd-grid">
+                <ul class="experience-data certificate-data">
+                  <li class="experience-name">
+                    <span class="experience-circle"></span>
+                    <h3 class="certificate-title">
+                      HTML5 Certificate from University of Michigan
+                    </h3>
+                    <span
+                      ><a
+                        href="https://coursera.org/share/3bdde457f895bca164e9ef1fb5c16545"
+                        target="_blank"
+                        class="certificate-link"
+                        ><i class="bx bx-award certificate-icon"></i></a
+                    ></span>
+                  </li>
+                  <li class="experience-name">
+                    <span class="experience-circle"></span>
+                    <h3 class="certificate-title">
+                      CSS3 Certificate from University of Michigan
+                    </h3>
+                    <span
+                      ><a
+                        href="https://coursera.org/share/9500aaa8905c382a76f5b40cfe783531"
+                        target="_blank"
+                        class="certificate-link"
+                        ><i class="bx bx-award certificate-icon"></i></a
+                    ></span>
+                  </li>
+                  <li class="experience-name">
+                    <span class="experience-circle"></span>
+                    <h3 class="certificate-title">
+                      JavaScript Certificate from University of Michigan
+                    </h3>
+                    <span
+                      ><a
+                        href="https://coursera.org/share/ac1ca962b332ea134f5b5422c7b3912d"
+                        target="_blank"
+                        class="certificate-link"
+                        ><i class="bx bx-award certificate-icon"></i></a
+                    ></span>
+                  </li>
+                  <li class="experience-name">
+                    <span class="experience-circle"></span>
+                    <h3 class="certificate-title">
+                      WordPress certificate from coursera website
+                    </h3>
+                    <span
+                      ><a
+                        href="https://coursera.org/share/45af4f7719cfaaf74f59694340524fbd"
+                        target="_blank"
+                        class="certificate-link"
+                        ><i class="bx bx-award certificate-icon"></i></a
+                    ></span>
+                  </li>
+                  <li class="experience-name">
+                    <span class="experience-circle"></span>
+                    <h3 class="certificate-title">
+                      Introduction to Git and GitHub from Google
+                    </h3>
+                    <span
+                      ><a
+                        href="https://coursera.org/share/b8a1c0e710a7ea4488d55b9208773aed"
+                        target="_blank"
+                        class="certificate-link"
+                        ><i class="bx bx-award certificate-icon"></i></a
+                    ></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience-container bd-grid">
+              <div class="experience-content">
+                <div class="experience-time">
+                  <span class="experience-rounder"></span>
+                  <!-- <span class="experience-line"></span> -->
+                </div>
+                <div class="experience-data bd-grid">
+                  <h3 class="experience-title">Frontend Developer</h3>
+                  <span class="experience-company"
+                    >From 2021 to 2022 | North Excel</span
+                  >
+
+                  <div class="experience-items bd-grid">
+                    <ul class="experience-data">
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Developed web application using Angular, JavaScript,
+                          TypeScript, Html5, CSS3, Bootstrap.</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Developed and managed front-end applications with
+                          great user experience.</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Provide insights and contribution to API Development
+                          from a front-end perspective.</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span>Create UX element interactions.</span>
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span>Use repository tools (Git).</span>
+                      </li>
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Troubleshoot, debug, upgrade and test software to
+                          ensure responsiveness and efficiency.</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Built features and applications with a mobile
+                          responsive design.</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span
+                          >Capability to produce content on time, with attention
+                          to detail, and an emphasis on identifying and pitching
+                          to a target audience</span
+                        >
+                      </li>
+
+                      <li class="experience-name">
+                        <span class="experience-circle"></span>
+                        <span>Working in Agile environment.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Personal Projects ==========-->
+          <section
+            style="margin-top: 1rem"
+            class="personal section"
+            id="personal"
+          >
+            <h2 class="section-title">Personal Projects</h2>
+            <div class="personal-container bd-grid">
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">Weather App</h3>
+                    <a
+                      href="https://mostafamhli.github.io/weatherapp/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    Web application that shows the temperature according to a
+                    person's geographical location, in addition to showing wind
+                    speed, humidity, highest temperature, and lowest
+                    temperature, Created Using: Angular, TypeScript, HTML5, and
+                    CSS3.
+                  </p>
+                </div>
+              </div>
+
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">Memory Game</h3>
+                    <a
+                      href="https://mostafamhli.github.io/memory-game/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    Game to measure the mental ability to memorize the locations
+                    of images, Created Using: HTML5, CSS, and Javascript.
+                  </p>
+                </div>
+              </div>
+
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">Typing Speed Game</h3>
+                    <a
+                      href="https://mostafamhli.github.io/Typing-Speed-Test-Game/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    Game aimed at people who are interested in how fast they can
+                    type on the keyboard, Created Using: HTML5, CSS3, and
+                    Javascript.
+                  </p>
+                </div>
+              </div>
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">Special Design</h3>
+                    <a
+                      href="https://mostafamhli.github.io/special-design-using-html-css-js/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    Designed Using HML5, CSS3, and Javascript, It has many
+                    features: Change the main color of the site to six colors,
+                    background image changes every five seconds, and bullet
+                    Which helps to navigate between sections of the site
+                    smoothly, Using slide-in and fade-in animation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">HTML&CSS Template3</h3>
+                    <a
+                      href="https://mostafamhli.github.io/HTML_And_CSS_Template_Three/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    This website has been developed using the following
+                    technologies: HTML5, CSS3, and Bootstrap, Designed to be
+                    compatible with all screen sizes.
+                  </p>
+                </div>
+              </div>
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                  <span class="personal-line"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">HTML&CSS Template2</h3>
+                    <a
+                      href="https://mostafamhli.github.io/HTML_And_CSS_Template_Two/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    This website has been developed using the following
+                    technologies: HTML5, CSS3, and Bootstrap, Designed to be
+                    compatible with all screen sizes.
+                  </p>
+                </div>
+              </div>
+              <div class="personal-content">
+                <div class="personal-time">
+                  <span class="personal-rounder"></span>
+                </div>
+                <div class="personal-data bd-grid">
+                  <div class="personal-flex">
+                    <h3 class="personal-title">HTML&CSS Template1</h3>
+                    <a
+                      href="https://mostafamhli.github.io/HTML_And_CSS_Template_One/"
+                      target="_blank"
+                      class="personal-icon"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                  <p class="personal-description">
+                    This website has been developed using the following
+                    technologies: HTML5, CSS3, and Bootstrap, Designed to be
+                    compatible with all screen sizes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">INTERESTS</h2>
+            <div class="interests-container bd-grid">
+              <div class="interests-content">
+                <i class="bx bx-headphone interests-icon"></i>
+                <span class="interests-name">Music</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="bx bxs-plane-alt interests-icon"></i>
+                <span class="interests-name">Travel</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="bx bx-book interests-icon"></i>
+                <span class="interests-name">Read</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="bx bx-dumbbell interests-icon"></i>
+                <span class="interests-name">Fitness</span>
+              </div>
+            </div>
+          </section>
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Language</h2>
+            <div class="languages-container">
+              <ul class="languages-content bd-grid">
+                <li class="languages-name">
+                  <span class="languages-circle"></span>Arabic
+                </li>
+
+                <li class="languages-name">
+                  <span class="languages-circle"></span>English
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop-icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
